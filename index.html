@@ -16,12 +16,14 @@
             width: 100%;
             max-width: 800px;
             margin: 40px auto 0 auto;
-            height: 180px;
-            background: linear-gradient(120deg, #2D3250 60%, #676F9D 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
             border-radius: 18px 18px 0 0;
+            overflow: hidden;
+        }
+        .banner-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
         }
         .event-title {
             text-align: center;
@@ -154,6 +156,7 @@
 </head>
 <body>
     <div class="banner"></div>
+    <img src="https://github.com/SolmediaCompany/2025-Koba_Adobe/blob/main/Adobe.jpg" alt="Adobe 세미나 배너" class="banner-img">
     <div class="event-title">2025 KOBA Adobe 세미나</div>
     <div class="event-subtitle">Adobe 솔루션 실무 활용과 신기능을 한자리에서!</div>
     <div class="event-intro">
